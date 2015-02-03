@@ -1,0 +1,27 @@
+{
+  "name": "dev-brom/yii2-releases-projects",
+  "description": "Releases projects manager module for Yii2",
+  "keywords": ["yii2", "yii2-releases-projects", "dev-brom"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/dev-brom/yii2-releases-projects/issues?state=open",
+    "forum": "https://github.com/dev-brom/yii2-releases-projects",
+    "source": "https://github.com/dev-brom/yii2-releases-projects"
+  },
+  "authors": [
+    {
+      "name": "Roman Budnitsky",
+      "email": "dev.brom@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "dev-brom\\releases\\": ""
+    }
+  }
+}
